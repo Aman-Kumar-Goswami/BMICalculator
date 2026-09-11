@@ -2,27 +2,27 @@
 
 A simple and user-friendly **BMI (Body Mass Index) Calculator Android application** built using **Kotlin and XML**.
 
-The app allows users to enter their height and weight and quickly calculate their BMI with the corresponding BMI category.
+The application allows users to enter their **height and weight**, calculate their BMI instantly, and view their corresponding BMI category.
 
 ## ✨ Features
 
 * 📏 Enter height and weight
 * 🧮 Calculate BMI instantly
-* 📊 Display BMI result
+* 📊 Display calculated BMI
 * 💡 Show BMI category
-* 📱 Simple and clean Android UI
-* ⚡ Lightweight and easy to use
 * ✅ Input validation
+* 📱 Simple and clean XML-based UI
+* ⚡ Lightweight and easy to use
 
 ## 🛠️ Tech Stack
 
-* **Kotlin**
-* **XML**
-* **Android Studio**
-* **Android SDK**
-* **Gradle**
+* **Kotlin** – Application logic
+* **XML** – User interface
+* **Android Studio** – Development environment
+* **Android SDK** – Android development
+* **Gradle** – Build system
 
-## 📱 BMI Categories
+## 📊 BMI Categories
 
 | BMI Range      | Category    |
 | -------------- | ----------- |
@@ -37,33 +37,43 @@ The app allows users to enter their height and weight and quickly calculate thei
 BMI = Weight (kg) / Height² (m)
 ```
 
-For example:
+### Example
 
 ```text
 Weight = 70 kg
 Height = 1.75 m
 
 BMI = 70 / (1.75 × 1.75)
+
 BMI ≈ 22.86
+Category = Normal
 ```
+
+## 📱 How It Works
+
+1. Enter your **weight in kilograms**.
+2. Enter your **height in meters**.
+3. Tap the **Calculate BMI** button.
+4. The application calculates and displays your BMI.
+5. The corresponding BMI category is also displayed.
 
 ## 🚀 Getting Started
 
-### Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Aman-Kumar-Goswami/BMICalculator.git
 ```
 
-### Open the project
+### 2. Open the Project
 
 Open the cloned project in **Android Studio**.
 
-### Build the project
+### 3. Sync Gradle
 
-Allow Gradle to sync and then build the project.
+Allow Android Studio to complete the **Gradle sync**.
 
-### Run the application
+### 4. Run the Application
 
 Connect an Android device or start an Android Emulator and click **Run ▶**.
 
@@ -76,7 +86,11 @@ BMICalculator/
 │   └── src/
 │       └── main/
 │           ├── java/
+│           │   └── ...
 │           └── res/
+│               ├── layout/
+│               ├── drawable/
+│               └── values/
 │
 ├── gradle/
 ├── build.gradle.kts
@@ -84,16 +98,27 @@ BMICalculator/
 └── README.md
 ```
 
-## 🎯 Purpose
+## 🎯 Learning Objectives
 
-This project was created to practice Android application development, Kotlin programming, XML-based UI development, user input handling, and basic mathematical logic.
+This project was developed to practice:
+
+* Kotlin fundamentals
+* Android application development
+* XML-based UI development
+* User input handling
+* Input validation
+* Basic mathematical calculations
+* Event handling in Android
+* Building and running an Android application
 
 ## 🔮 Future Improvements
 
-* Add dark mode
-* Add BMI history
-* Add age and gender-based results
-* Add health recommendations
-* Improve UI animations
-* Add unit conversion for height and weight
+* 🌙 Add Dark Mode
+* 📜 Add BMI History
+* 👤 Add age and gender-based analysis
+* 💡 Add general health recommendations
+* 🎨 Improve UI and animations
+* 📏 Support different height units (cm / ft & in)
+* ⚖️ Support different weight units (kg / lb)
+
 
